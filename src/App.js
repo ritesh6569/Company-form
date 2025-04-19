@@ -8,7 +8,7 @@ const App = () => {
 
   return (
     <div className="App">
-      <h1>Ritesh Patil Company</h1>
+      <h1>Kodars Klub</h1>
       <CompanyForm editable={editable} setEditable={setEditable} />
       <CompanyList setEditable={setEditable} />
     </div>
