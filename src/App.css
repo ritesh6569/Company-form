@@ -1,0 +1,119 @@
+/* src/App.css */
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f4f6f8;
+  color: #333;
+}
+
+.App {
+  max-width: 800px;
+  margin: 2rem auto;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+}
+
+h1 {
+  text-align: center;
+  color: #2b2d42;
+  margin-bottom: 1.5rem;
+}
+
+form {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+form input {
+  flex: 1 1 40%;
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+form button {
+  padding: 10px 20px;
+  background-color: #4e89ff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+form button:hover {
+  background-color: #3a6fd9;
+}
+
+h3 {
+  margin-bottom: 1rem;
+  color: #2b2d42;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #f9fafb;
+  padding: 1rem;
+  margin-bottom: 0.75rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+li strong {
+  display: block;
+  font-size: 1.1rem;
+  color: #2b2d42;
+}
+
+li button {
+  margin-left: 0.5rem;
+  padding: 6px 12px;
+  font-size: 0.9rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+li button:first-of-type {
+  background: #fbbf24;
+  color: #fff;
+}
+
+li button:first-of-type:hover {
+  background: #f59e0b;
+}
+
+li button:last-of-type {
+  background: #ef4444;
+  color: #fff;
+}
+
+li button:last-of-type:hover {
+  background: #dc2626;
+}
+
+@media (max-width: 600px) {
+  form {
+    flex-direction: column;
+  }
+
+  form input {
+    flex: 1 1 100%;
+  }
+}
